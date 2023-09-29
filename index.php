@@ -10,4 +10,15 @@
 
 // print_r($array2);
 // echo sizeof($array2);
+
+// if statement
+// $t = date("H");
+// $age = readline('Enter your age ');
+
+
+// if ($age >18) {
+//   echo "You are eligible for cnic";
+// } else {
+//   echo "you are not eligiblle for cnic take your time ";
+// }
 ?>
