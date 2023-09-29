@@ -21,4 +21,24 @@
 // } else {
 //   echo "you are not eligiblle for cnic take your time ";
 // }
+// switch
+// $favcolor="pink";
+// switch($favcolor){
+
+// case 'red':
+//     echo "your favourite color is red";
+//     break;
+//     case 'green':
+//         echo "your favourite color is green";
+//         break;
+//         case 'blue':
+//             echo "your favourite color is blue";
+//             break;
+
+//         default:
+//         echo "Your favorite color is neither red, blue, nor green!";
+
+
+
+// }
 ?>
