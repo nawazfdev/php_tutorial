@@ -62,6 +62,7 @@
 // foreach loop
 $colors = array("red", "green", "blue", "yellow");
 
+$mix = array('one','two ','three');
 foreach ($colors as $value) {
   echo "$value <br>";
 }
