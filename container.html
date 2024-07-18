@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit-no ">
@@ -12,17 +13,94 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="style.css">
-    <title>Container </title>
 </head>
+
 <body>
 
-    <!-- continer with is 1140px -->
-     <!-- conteinr-fluid with = 100% -->
-    <div class="container-fluid">
-        <div class="container">Muhammad Nawaz
+    <!-- Header Section -->
+    <header class="bg-primary text-white text-center py-3">
+        <h1>Bootstrap 5 Layout Example</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="container my-5">
+        <div class="row row-cols-4">
+            <div class="col-md-4 col-sm-12 mb-3">
+                <div class="p-3 bg-light border">
+                    <h2>Column 1</h2>
+                    <p>This is some text inside column 1. It spans 4 columns on medium and larger screens, and 12
+                        columns on smaller screens.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-3">
+                <div class="p-3 bg-light border">
+                    <h2>Column 2</h2>
+                    <p>This is some text inside column 2. It spans 4 columns on medium and larger screens, and 12
+                        columns on smaller screens.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mb-3">
+                <div class="p-3 bg-light border">
+                    <h2>Column 3</h2>
+                    <p>This is some text inside column 3. It spans 4 columns on medium and larger screens, and 12
+                        columns on smaller screens.</p>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-3">
+                <div class="p-3 bg-light border">
+                    <h2>Column 4</h2>
+                    <p>This is some text inside column 4. It spans 6 columns on large screens and 12 columns on medium
+                        and smaller screens.</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 mb-3">
+                <div class="p-3 bg-light border">
+                    <h2>Column 5</h2>
+                    <p>This is some text inside column 5. It spans 6 columns on large screens and 12 columns on medium
+                        and smaller screens.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+    <!-- thisis header section  -->
+
+
+    <!-- New header -->
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Header Section</h1>
+        <div class="row justify-content-md-around align-items-center">
+          <div class="col-lg-4 mb-3 mb-lg-0">
+            <img src="https://via.placeholder.com/150" class="rounded-circle img-fluid" alt="Placeholder Image">
+          </div>
+          <div class="col-lg-8">
+            <nav>
+              <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
